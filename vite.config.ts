@@ -329,8 +329,8 @@ function aiCoachPlugin(): Plugin {
 }
 
 export default defineConfig(() => {
-   ⁠base: '/MuStudio/',
   return {
+     ⁠base: '/MuStudio/',⁠
     plugins: [react(), tailwindcss(), aiCoachPlugin()],
     resolve: {
       alias: {
